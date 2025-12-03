@@ -1,0 +1,66 @@
+body{
+	background-color: #bdbfff;
+	min-width:36px;
+	min-height:48px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 1.0;
+}
+.a,::picker(select){
+    appearance: base-select;
+	background: #ffffff url('red_arrow.png') no-repeat top right;
+	position:relative;
+	float: left;
+}
+.aa{
+	background-color: #F0A0A0;
+}
+.aa:hover {
+    background-color: #F05050;
+}
+.b{
+	appearance: base-select;
+	background: #ffffff url('yellow_arrow.png') no-repeat top right;
+	position: relative; /* or relative, fixed, sticky */
+	left: 5em;
+	right: 10em;
+}
+.bb{
+	background-color: #f0f0A0;
+}
+.bb:hover {
+    background-color: #f0f050;
+}
+.c{
+	background-color: white;
+	font-family: 'Courier New', Courier, monospace;
+}
+.d{
+	width: 99%;
+	color: #3f3f7f;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14;
+}
+.e{
+	width: 99%;
+	color: #7f3f3f;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14;
+}
+.f{
+	float:left;
+	background-color: #7fff7f;
+	width: 20%;
+	height: 50px;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.g{
+	float: right;
+	background-color: #7f7fff;
+	width: 20%;
+	height: 50px;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,80 @@
+body{
+	background-color: #bdbfff;
+	min-width:36px;
+	min-height:48px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 1.0;
+}
+.a,::picker(select){
+    appearance: base-select;
+	background: #ffffff url('red_arrow.png') no-repeat top right;
+	position:relative;
+	float: left;
+}
+.aa{
+	background-color: #f0a0a0;
+}
+.aa:hover {
+    background-color: #f05050;
+}
+.b{
+	appearance: base-select;
+	background: #ffffff url('yellow_arrow.png') no-repeat top right;
+	position: relative; /* or relative, fixed, sticky */
+	left: 5em;
+	right: 10em;
+}
+.bb{
+	background-color: #f0f0a0;
+}
+.bb:hover {
+    background-color: #f0f050;
+}
+.c{
+	appearance: base-select;
+	background: #ffffff url('blue_arrow.png') no-repeat top right;
+	position:relative;
+	width: 350px;
+	height: 25px;
+	overflow: hidden;
+	float:right;
+	right:1em;
+}
+.cc{
+	background-color: #a0a0f0;
+	position:relative;
+	width: 332px;
+	overflow: hidden;
+}
+.cc:hover {
+    background-color: #5050f0;
+}
+.d{
+	background-color: white;
+	display:block;
+	td{
+		size:100em;
+  		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	.dd{
+		font-size: 20px;
+  		border: 1px solid white;
+	}
+}
+.e{
+	background-color: #a0f0a0;
+	font-size: 24px;
+	width: 100%;
+	display: block;
+}
+div{
+	background-color: white;
+	a{
+		font-size: 16px;
+		color: #50f0f0;
+		font-weight: bold;
+	}
+}
